@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div class="doc-layout">
+  <aside class="doc-sidebar">
+    {% include doc-nav.html %}
+  </aside>
+  <article class="doc-content">
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}<p class="doc-lead">{{ page.description }}</p>{% endif %}
+    {{ content }}
+    {% include doc-pagination.html %}
+  </article>
+</div>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://recoding.innova-optics.com/sitemap.xml

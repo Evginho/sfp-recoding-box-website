@@ -1,0 +1,70 @@
+title: SFP Recoding Box
+description: Professional open-source SFP/QSFP programming — sub-$500, USB-C powered, community-driven
+url: "https://recoding.innova-optics.com"
+baseurl: ""
+
+# Build
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# SEO
+author: Networkser / Innova Optics
+twitter:
+  username: networkser
+logo: /assets/images/logo.svg
+social:
+  name: SFP Recoding Box
+  links:
+    - https://github.com/networkser/sfp-recoding-box
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+  guides:
+    output: true
+    permalink: /docs/guides/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: doc
+  - scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: doc
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - gemfiles
+  - README.md
+
+# Sass
+sass:
+  style: compressed
+
+# Feed
+feed:
+  path: /blog/feed.xml

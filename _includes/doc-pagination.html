@@ -1,0 +1,26 @@
+{% assign docs = site.docs | sort: "order" %}
+{% for doc in docs %}
+  {% if doc.url == page.url %}
+    {% assign prev_doc = forloop.index0 | minus: 1 %}
+    {% assign next_doc = forloop.index0 | plus: 1 %}
+    {% if prev_doc >= 0 %}{% assign prev = docs[prev_doc] %}{% endif %}
+    {% if next_doc < docs.size %}{% assign next = docs[next_doc] %}{% endif %}
+  {% endif %}
+{% endfor %}
+
+{% if prev or next %}
+<nav class="doc-pagination" aria-label="Documentation pagination">
+  {% if prev %}
+  <a href="{{ prev.url }}" class="doc-pagination-prev">
+    <span>&larr; Previous</span>
+    <strong>{{ prev.title }}</strong>
+  </a>
+  {% endif %}
+  {% if next %}
+  <a href="{{ next.url }}" class="doc-pagination-next">
+    <span>Next &rarr;</span>
+    <strong>{{ next.title }}</strong>
+  </a>
+  {% endif %}
+</nav>
+{% endif %}
