@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introducing the SFP Recoding Box: Open-Source SFP Programming for Everyone"
-description: We're launching the SFP Recoding Box — an open-source, USB-C powered device that lets you read and reprogram any SFP/QSFP transceiver for under $500.
+description: We're launching the SFP Recoding Box — an open-source, USB-C powered device that lets you read and reprogram any SFP/QSFP transceiver for under $30.
 date: 2026-05-01 09:00:00 +0000
 category: Announcements
 ---
@@ -18,7 +18,7 @@ If you've worked with managed switches long enough, you've hit the vendor lock-i
 
 The module works fine electrically. The only problem is 16 bytes in an EEPROM that say the wrong vendor name.
 
-Commercial solutions exist — SFPTOTAL, FS BOX, Pro Optix — but they start at $1,500 and go up from there. They're closed-source, locked to vendor support contracts, and don't support newer form factors like QSFP-DD.
+Commercial solutions exist — SFPTOTAL, FS BOX, Pro Optix — but they start at $500 and go up to $3,000+. They're closed-source, locked to vendor support contracts, and don't support newer form factors like QSFP-DD.
 
 We wanted something better. Open. Affordable. Hackable.
 
@@ -28,7 +28,7 @@ The SFP Recoding Box is:
 
 - **USB-C powered** — no wall adapter, works from any laptop
 - **All form factors** — SFP through QSFP-DD (400G)  
-- **Sub-$500** — 10–50× cheaper than commercial alternatives
+- **Sub-$30** — 10–50× cheaper than commercial alternatives
 - **Fully open source** — MIT-licensed firmware and CLI
 - **Complete API** — CLI, Python, webhooks for automation
 

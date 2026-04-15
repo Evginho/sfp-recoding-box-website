@@ -1,6 +1,6 @@
 # SFP Recoding Box
 
-> Professional open-source SFP/QSFP programming — sub-$500, USB-C powered, community-driven.
+> Professional open-source SFP/QSFP programming — sub-$30, USB-C powered, community-driven.
 
 [![Stars](https://img.shields.io/github/stars/networkser/sfp-recoding-box?style=flat-square)](https://github.com/networkser/sfp-recoding-box/stargazers)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
@@ -15,13 +15,13 @@ Read, write, and reprogram any SFP, SFP+, SFP28, QSFP, QSFP28, or QSFP-DD transc
 - Open source: MIT-licensed firmware and CLI
 - Full API: CLI, Python SDK, REST webhooks
 - Bulk programming via CSV manifest
-- Sub-$500 BOM
+- Sub-$30 BOM
 
 ## Comparison
 
 | | **SFP Recoding Box** | SFPTOTAL | FS BOX | Pro Optix |
 |---|---|---|---|---|
-| Price | **<$500** | $2,000+ | $1,500+ | $3,000+ |
+| Price | **<$30** | $500–$2,000+ | $500–$1,500+ | $1,500–$3,000+ |
 | Open Source | **MIT** | ❌ | ❌ | ❌ |
 | QSFP-DD | **✅** | ❌ | ❌ | ✅ |
 | USB-C | **✅** | ❌ | ❌ | ❌ |
@@ -57,7 +57,7 @@ sfp write 1 -i new-data.json
 | PCB (fab) | JLCPCB 5-pack | ~$15 |
 | Components | Various passives | ~$5 |
 
-**Total BOM: ~$30 assembled. &lt;$500 at retail.**
+**Total BOM: ~$30 assembled.**
 
 ## Documentation
 

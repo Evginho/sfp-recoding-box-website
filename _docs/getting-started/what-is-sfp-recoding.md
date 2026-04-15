@@ -78,10 +78,10 @@ The SFP MSA (Multi-Source Agreement) defines the memory map:
 
 | Tool | Price | Open Source | Form Factors |
 |---|---|---|---|
-| **SFP Recoding Box** | **&lt;$500** | **Yes** | **All** |
-| SFPTOTAL | $2,000+ | No | SFP–SFP28 |
-| FS BOX | $1,500+ | No | SFP–SFP28 |
-| Pro Optix | $3,000+ | No | All |
+| **SFP Recoding Box** | **&lt;$30** | **Yes** | **All** |
+| SFPTOTAL | $500–$2,000+ | No | SFP–SFP28 |
+| FS BOX | $500–$1,500+ | No | SFP–SFP28 |
+| Pro Optix | $1,500–$3,000+ | No | All |
 
 ---
 
